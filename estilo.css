@@ -4,6 +4,8 @@
 /* Estilos de los encabezados */
 h1, h2, h3, h4, h5, h6{
     font-family : "Times New Roman", serif;
+	 background-color: #99ccff;
+    border-radius: 17px;
 }
 
 h1, h6{
@@ -61,7 +63,7 @@ main{
 	display: -moz-box;
     display: -ms-flexbox;
     grid-area: content;
-    background-color:#ffffcc;
+    background-color:#fffafa;
 }
 
 img.tony{
@@ -91,12 +93,14 @@ a{
 aside{
     background-color: #ffcccc;
     grid-area: aside;
+	border-radius: 35px
 }
 
 footer{
     background-color: #99ccff;
     grid-area: footer;
 	text-align: center;
+	border-radius: 30px
 }
 table{
 border-collapse:collapse;	
