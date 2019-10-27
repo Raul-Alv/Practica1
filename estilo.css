@@ -32,6 +32,7 @@ header{
     background-color: #99ccff;
     grid-area: header;
 	text-align: center;
+	border-radius: 30px
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
