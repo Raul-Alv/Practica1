@@ -1,0 +1,99 @@
+/* Estilo de la disposicion*/
+
+
+/* Estilos de los encabezados */
+h1, h2, h3, h4, h5, h6{
+    font-family : "Times New Roman", serif;
+}
+
+h1, h6{
+    font-weight: bold;
+}
+
+h1, h3, h5{
+    font-stretch: expanded;
+}
+
+h2, h4, h6{
+    font-style: italic;
+}
+
+h1{font-size: 2.2em;}
+h2{font-size: 1.8em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em}
+h5{font-size: 1em;}
+h6{font-size: 0.6em;}
+
+/* Estilos del documento */
+header{
+    background-color: #99ccff;
+    grid-area: header;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+        "header header"
+        "aside content"
+        "footer footer";
+}
+
+th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td, blockquote{
+    font-style: italic;
+    font-size: 11pt;
+}
+
+/* Estilo de la lista no numerada y primera letra de cada parrafo*/ 
+p::first-letter, ul{
+    font-size: 14pt;
+}
+
+main{
+	display: -moz-box;
+    display: -ms-flexbox;
+    grid-area: content;
+    background-color:#ffffcc;
+}
+
+img.tony{
+    float:right;
+	margin:20px;
+}
+
+img.edie{
+    float:left;
+	margin:20px;
+}
+
+nav li{
+    border:solid 2px #990000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #6600ff;
+    padding: 1.2em;
+}
+
+aside{
+    background-color: #ffcccc;
+    grid-area: aside;
+}
+
+footer{
+    background-color: sandybrown;
+    grid-area: footer;
+}
+
